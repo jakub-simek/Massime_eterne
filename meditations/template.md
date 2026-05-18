@@ -1,18 +1,30 @@
 ---
-id: ""
-source: ""
-lang: "de"
+id: "me-la-0000"
+title: "Meditatio ..."
+lang: "la"
 status: "draft"
+primary_source: "edition/it/tei/massime-eterne.xml#"
+primary_div: ""
+primary_paragraph: 0
+primary_incipit: ""
+source_language: "it"
+source_status: "first-pass TEI from IntraText"
 ---
 
 # Title
 
-## Textual Basis
+## Textus fundamentalis
 
 TEI reference:
 
-## Translation
+Italian source text:
 
-## Meditation
+## Expositio spiritualis
+
+## Amplificatio
+
+## Applicatio spiritualis
+
+## Conclusio
 
 ## Notes

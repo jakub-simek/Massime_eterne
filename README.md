@@ -19,6 +19,7 @@ This repository builds a text-aware but practically usable edition:
 
 - [docs/editorial-guidelines.md](docs/editorial-guidelines.md): editorial principles and working rules.
 - [docs/intratext-to-tei-workflow.md](docs/intratext-to-tei-workflow.md): local workflow based on the `Glorie_di_Maria` project.
+- [planning/meditations-guidelines.md](planning/meditations-guidelines.md): Massime-specific rules for paragraph-based Latin meditations.
 - [sources/source-plan.md](sources/source-plan.md): source situation and prioritization.
 - [data/bibliography.yml](data/bibliography.yml): growing bibliography scaffold.
 - [edition/it/tei/](edition/it/tei/): Italian TEI base text.

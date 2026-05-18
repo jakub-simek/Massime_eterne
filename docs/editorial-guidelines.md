@@ -32,3 +32,5 @@ IntraText documents the printed basis as: S. Alfonso Maria de Liguori, *OPERE AS
 - The translation should remain close to the text and must not be disguised as meditation.
 - Meditation texts may be freer, but must name their textual basis.
 - Each meditation should identify its section, language, status, and revision state.
+- Latin meditations follow the shared guidelines in `shared/latin-meditations-guidelines/` and the local overlay in `planning/meditations-guidelines.md`.
+- The normal meditation unit for this project is one individual paragraph of the Italian TEI base text.
