@@ -1,0 +1,3 @@
+[submodule "shared/latin-meditations-guidelines"]
+	path = shared/latin-meditations-guidelines
+	url = git@github.com:jakub-simek/latin-meditations-guidelines.git
