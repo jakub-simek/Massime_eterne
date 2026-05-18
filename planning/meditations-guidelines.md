@@ -52,6 +52,34 @@ one of these TEI divs:
 The `sigla-p2hp` div is a reference section and is not normally a meditation
 source.
 
+## Preparatory Method
+
+The opening directions in `preparation-p2hq` are binding methodological
+guidance for composing and reading every Latin meditation in this project.
+They should shape the meditation's spiritual movement even when they are not
+the paragraph being meditated on.
+
+Before writing, the author should recall the acts named there:
+
+- renew faith in the presence of God;
+- place the soul before God and adore him;
+- humble oneself and ask pardon;
+- ask light from God for the love of Jesus Christ;
+- commend the meditation to Mary Most Holy and the saints.
+
+The meditation itself should follow the same practical pattern:
+
+- proceed slowly through the selected paragraph;
+- draw out the eternal truth contained in it;
+- lead toward a concrete resolution against a vice or toward a specific virtue;
+- conclude, when appropriate, with acts of thanksgiving, offering, petition,
+  Marian recourse, and intercession for the Church, sinners, the just, and the
+  souls in purgatory.
+
+Do not turn these preparatory acts into a rigid visible template for every file.
+They are the interior grammar of the meditation, not an added checklist to be
+recited mechanically.
+
 ## Paragraph Locator
 
 Until paragraph-level `xml:id` values are added to the TEI, use this locator:
@@ -202,6 +230,9 @@ Before marking a meditation ready, verify:
 - the selected TEI div and paragraph number exist;
 - the meditation treats one paragraph, not a whole daily meditation;
 - the Italian `Textus fundamentalis` matches the TEI source;
+- the opening preparatory directions in `preparation-p2hq` have shaped the
+  meditation's movement toward presence of God, humility, light, resolution,
+  and prayer;
 - all direct quotations are real, traceable, italicized, and immediately cited;
 - paraphrases use `cf.`;
 - the Latin meditation remains in Ecclesiastical Latin;

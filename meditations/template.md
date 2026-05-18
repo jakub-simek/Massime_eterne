@@ -19,6 +19,8 @@ TEI reference:
 
 Italian source text:
 
+Method note:
+
 ## Expositio spiritualis
 
 ## Amplificatio
