@@ -260,6 +260,41 @@ def ends_open(xml: str) -> bool:
     return not re.search(r"[.!?…»”)\]]\s*$", text)
 
 
+def ends_with_link_word(xml: str) -> bool:
+    text = strip_refs_for_boundary(xml)
+    if not text:
+        return False
+    return bool(re.search(r"\b(?:a|ad|al|alla|che|con|da|de’|del|dell’|della|di|e|in|per)$", text))
+
+
+def looks_like_heading(block: str) -> bool:
+    text = strip_refs_for_boundary(block)
+    return len(text) <= 120 and not re.search(r"[.;:!?]", text)
+
+
+def merge_p_blocks(first: str, second: str) -> str:
+    return f"<p>{p_inner(first)} {p_inner(second)}</p>"
+
+
+def merge_adjacent_split_paragraphs(blocks: list[str]) -> list[str]:
+    merged: list[str] = []
+    i = 0
+    while i < len(blocks):
+        if (
+            i + 1 < len(blocks)
+            and is_p(blocks[i])
+            and is_p(blocks[i + 1])
+            and not looks_like_heading(blocks[i])
+            and (ends_with_link_word(blocks[i]) or starts_continuation(blocks[i + 1]))
+        ):
+            merged.append(merge_p_blocks(blocks[i], blocks[i + 1]))
+            i += 2
+            continue
+        merged.append(blocks[i])
+        i += 1
+    return merged
+
+
 def merge_page_split_paragraphs(blocks: list[str]) -> list[str]:
     merged: list[str] = []
     i = 0
@@ -276,7 +311,7 @@ def merge_page_split_paragraphs(blocks: list[str]) -> list[str]:
             continue
         merged.append(blocks[i])
         i += 1
-    return merged
+    return merge_adjacent_split_paragraphs(merged)
 
 
 def slug(value: str) -> str:
