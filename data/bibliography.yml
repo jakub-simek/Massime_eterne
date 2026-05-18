@@ -1,0 +1,14 @@
+works:
+  - id: intratext-massime-eterne
+    type: digital_text
+    title: "Massime eterne"
+    author: "S. Alfonso Maria de Liguori"
+    url: "https://www.intratext.com/ixt/itasa0000/_IDX084.HTM"
+    publisher: "IntraText / EuloTech"
+    date: "2007-06-26"
+    source_basis: "S. Alfonso Maria de Liguori, OPERE ASCETICHE, Vol. IX, pp. 381-395, Edizioni di Storia e Letteratura, Roma 1965"
+    electronic_transcription: "P. Salvatore Brugnano, CSSR"
+    markup: "EuloTech ETML"
+    license: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported, unless otherwise noted"
+    license_url: "https://www.intratext.com/info/copyENG.htm"
+    status: "downloaded source for first TEI conversion"

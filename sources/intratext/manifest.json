@@ -1,0 +1,118 @@
+{
+  "work": {
+    "title": "Massime eterne",
+    "subtitle": "cioe meditazioni per ciascun giorno della settimana",
+    "author": "S. Alfonso Maria de Liguori",
+    "intratext_id": "ITASA0000",
+    "intratext_work_index": "_IDX084.HTM",
+    "index_url": "https://www.intratext.com/ixt/itasa0000/_IDX084.HTM",
+    "downloaded_at": "2026-05-18T17:17:43.806126+00:00",
+    "source_note": "Text pages use IntraText's hidden-concordance-link variant (__P*.HTM).",
+    "print_source": "S. Alfonso Maria de Liguori, OPERE ASCETICHE, Vol. IX, pp. 381-395, Edizioni di Storia e Letteratura, Roma 1965.",
+    "electronic_transcription": "P. Salvatore Brugnano, CSSR",
+    "markup": "EuloTech ETML",
+    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported, unless otherwise noted",
+    "license_url": "https://www.intratext.com/info/copyENG.htm"
+  },
+  "index": {
+    "order": 0,
+    "kind": "index",
+    "title": "Indice opera",
+    "source_url": "https://www.intratext.com/ixt/itasa0000/_IDX084.HTM",
+    "local_path": "sources/intratext/raw_html/_idx084.htm",
+    "bytes": 5518,
+    "sha256": "90d77b665a27e6ef0b8c4d91a3011c65fee839858de2e145b498921ac2d30234"
+  },
+  "pages": [
+    {
+      "order": 1,
+      "kind": "text",
+      "title": "SIGLE",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HP.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hp.htm",
+      "bytes": 5452,
+      "sha256": "eeba1d97eff33dd56501d2fb6af54d09b2b1395513e0390e523aca1250af9b47"
+    },
+    {
+      "order": 2,
+      "kind": "text",
+      "title": "Atti preparatori alla meditazione",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HQ.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hq.htm",
+      "bytes": 8076,
+      "sha256": "8fb2127efae0c18ec03a3a955ae6df316b079e47bccadbbf6d4c0a493c68ba94"
+    },
+    {
+      "order": 3,
+      "kind": "text",
+      "title": "Atti cristiani",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HR.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hr.htm",
+      "bytes": 8935,
+      "sha256": "c3afbe165020a8a8508e0572b8bddf67e5a42793696e8a8dd5d9bd581fd9e2aa"
+    },
+    {
+      "order": 4,
+      "kind": "text",
+      "title": "Meditazione per la Domenica - DEL FINE DELL'UOMO",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HS.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hs.htm",
+      "bytes": 15984,
+      "sha256": "ddcbb118e9ac7ac5d0cb25dbf7b0f20a37fae0b167f6b02ed562d225c0e31031"
+    },
+    {
+      "order": 5,
+      "kind": "text",
+      "title": "Meditazione per lo lunedì - DELL'IMPORTANZA DEL FINE",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HT.HTM",
+      "local_path": "sources/intratext/raw_html/__p2ht.htm",
+      "bytes": 20321,
+      "sha256": "98992fb8e942fbba866a1e657e58ced74d04997e3b2a427e6b726a7c278a9dc5"
+    },
+    {
+      "order": 6,
+      "kind": "text",
+      "title": "Meditazione per lo martedì - DEL PECCATO MORTALE",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HU.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hu.htm",
+      "bytes": 19993,
+      "sha256": "b1000ad40e1c3c8ffa6e5d372e76d5848bc4d51c077321df61e29d5b158c2258"
+    },
+    {
+      "order": 7,
+      "kind": "text",
+      "title": "Meditazione per lo mercoledì - DELLA MORTE",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HV.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hv.htm",
+      "bytes": 24755,
+      "sha256": "3f0650099f2c7c8d42117c43ed456f5d943272107d792ead10989916b830adf6"
+    },
+    {
+      "order": 8,
+      "kind": "text",
+      "title": "Meditazione per lo giovedì - DEL GIUDIZIO FINALE",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HW.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hw.htm",
+      "bytes": 14763,
+      "sha256": "0033a79005f31e1961986fd0296d992f400c028ff715436d5c539acf6d420acd"
+    },
+    {
+      "order": 9,
+      "kind": "text",
+      "title": "Meditazione per lo venerdì - DELL'INFERNO",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HX.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hx.htm",
+      "bytes": 14625,
+      "sha256": "8bff29f89273864a20cfd606c94e65f8fe3b1835368038655437f3631c3d94d3"
+    },
+    {
+      "order": 10,
+      "kind": "text",
+      "title": "Meditazione per lo sabbato - DELL'ETERNITÀ DELLE PENE",
+      "source_url": "https://www.intratext.com/ixt/itasa0000/__P2HY.HTM",
+      "local_path": "sources/intratext/raw_html/__p2hy.htm",
+      "bytes": 22732,
+      "sha256": "f42ec3bf1cd5d8118cf0e42fca83cc4501b6a103393dd782905fa5b25356d803"
+    }
+  ]
+}
