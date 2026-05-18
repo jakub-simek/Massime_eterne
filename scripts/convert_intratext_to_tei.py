@@ -31,6 +31,7 @@ def attrs_dict(attrs: list[tuple[str, str | None]]) -> dict[str, str]:
 
 def normalize_text(text: str) -> str:
     text = text.replace("\xa0", " ")
+    text = text.replace("'", "’")
     return re.sub(r"\s+", " ", text)
 
 
@@ -309,7 +310,7 @@ def skip_duplicate_heading(block: str, title: str) -> bool:
     if "<ref " in block:
         return False
     text = plain_text(block).rstrip(".")
-    wanted = title.rstrip(".")
+    wanted = normalize_text(title).rstrip(".")
     return text == wanted or text.startswith(wanted)
 
 
@@ -329,7 +330,8 @@ def build_simple_div(page: dict[str, Any], parsed: ParsedPage) -> str:
     page_id = Path(page["local_path"]).stem.lstrip("_")
     div_type = div_type_for(page["title"])
     xml_id = f"{div_type}-{slug(page_id)}"
-    blocks = [milestone_for(page), f"<head>{escape(page['title'], quote=False)}</head>"]
+    title = escape(normalize_text(page["title"]), quote=False)
+    blocks = [milestone_for(page), f"<head>{title}</head>"]
     for block in parsed.blocks:
         if skip_duplicate_heading(block, page["title"]):
             continue

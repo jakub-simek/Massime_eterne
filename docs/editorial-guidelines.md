@@ -24,6 +24,7 @@ IntraText documents the printed basis as: S. Alfonso Maria de Liguori, *OPERE AS
 - Obvious digital transcription errors are corrected only after checking the source.
 - Meaning-bearing corrections are documented in a note.
 - Orthography, punctuation, and historical forms are normally retained in the base text.
+- Italian apostrophes in the generated TEI are encoded as U+2019 RIGHT SINGLE QUOTATION MARK.
 - Printed page numbers are preserved as `<pb>`.
 - IntraText page boundaries are preserved as `<milestone unit="intratext-page">`.
 

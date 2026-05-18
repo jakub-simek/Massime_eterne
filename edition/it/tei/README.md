@@ -26,6 +26,7 @@ edition/it/tei/massime-eterne.xml
 - IntraText page boundaries are preserved as `<milestone unit="intratext-page">`.
 - Footnote references are emitted as `<ref type="note" target="#note-...">`.
 - Footnotes are collected in the back matter under `<back>`.
+- Italian apostrophes are normalized to U+2019 RIGHT SINGLE QUOTATION MARK in the generated TEI.
 
 ## Limits
 
