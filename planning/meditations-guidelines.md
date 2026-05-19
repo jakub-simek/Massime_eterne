@@ -28,6 +28,18 @@ For source control and edition context, consult when needed:
 - `sources/intratext/manifest.json`
 - `data/bibliography.yml`
 
+## Sequential Continuity
+
+When composing meditations on consecutive paragraphs in the same TEI div, read
+the surrounding TEI paragraphs and the immediately preceding meditation when it
+exists. The new meditation should fit the tone, spiritual movement, and
+paragraph-by-paragraph progression of the existing sequence.
+
+Treat the preceding meditation's central insight as established context, but do
+not repeat its development unless the new paragraph itself requires it. The
+selected paragraph remains the center of the new meditation and should supply
+its own distinct ascetical movement.
+
 ## Primary Text
 
 The primary source is the Italian TEI file:
